@@ -13,7 +13,7 @@ if (!fs.existsSync(dir)){
 }
 
 app.get('/', (req, res) => {
-  res.json({msg: 'Hello AppsReadyNext NodeJS Session.'});
+  res.json({msg: 'Hello! Profiling Memory and CPU.'});
 });
 
 function LeakingClass() { }
