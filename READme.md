@@ -15,10 +15,7 @@ apt-get install build-essential
 - Example: `/cpu/45`
 
 #### High Memory
-- To consume memory you can request the following route: **`/memory`**
-- This will consume 200MB in each request.
-- Or request the following route: **`/memory2/:id`**
-- Example `/memory2/1`
+- To consume memory you can request the following route: **`/memory`** , this endpoint will consume 200MB in each request.
 
 ---
 #### Profiling CPU
