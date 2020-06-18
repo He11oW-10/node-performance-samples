@@ -1,6 +1,6 @@
 ## Profilers
 ---
-### Azure Web App
+### Azure Web App Linux
 In case it is not finding the libraries based on the nodejs abi, you can install it in SSH or using install.sh with Oryx.
 ```
 apt-get update
@@ -36,5 +36,3 @@ apt-get install build-essential
 #### Showing current memory and cpu time with NodeJS
 - You can request **`/process`** and will see the memory allocation and cpu in microseconds.
 
-
->  **Note**: This example reuses code from this blog: https://docs.microsoft.com/en-us/archive/blogs/azureossds/finding-memory-leaks-and-cpu-usage-in-azure-node-js-web-app
